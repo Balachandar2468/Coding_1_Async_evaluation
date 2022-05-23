@@ -13,7 +13,7 @@ const Task = () => {
       <AddTask />
 
       </div>
-      <button data-cy="task-remove-button"></button>
+      <button id={styles.button_3} data-cy="task-remove-button"></button>
     </li>
   );
 };

@@ -80,7 +80,7 @@ const AddTask = () => {
       <div key={item.id}>
           <div id={styles.boxes}>
             <input type="checkbox" name={"checkbox"}  value={checked.checkbox} onChange={handleCheck} id={styles.radio}></input>
-          <h3>{item.title} style{(checked.checkbox===true?'line-through':'')}</h3>
+          <h3>{item.title} {(checked.checkbox===true?'line-through':'')}</h3>
           <div>
             <button onClick={handleIncrement}>+</button>
             <input value={count} id={styles.input_3} />
