@@ -1,3 +1,11 @@
-.task {
-  /* Sample  */
+#check_1{
+display: none;
+}
+
+#button_3{
+  display:none;
+}
+
+#task{
+  display: none;
 }
